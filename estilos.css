@@ -1,0 +1,251 @@
+body {
+
+font-family: Arial, sans-serif;
+
+margin: 0;
+
+background-color: #f4f6f8;
+
+color: #222;
+
+}
+
+/* BARRA SUPERIOR */
+
+.barra-superior {
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+background-color: #0d1b2a;
+
+color: white;
+
+padding: 15px 30px;
+
+}
+
+.logo {
+
+display: flex;
+
+align-items: center;
+
+gap: 10px;
+
+}
+
+.logo img {
+
+width: 50px;
+
+height: 50px;
+
+}
+
+/* BUSCADOR */
+
+.busqueda input {
+
+padding: 8px;
+
+border-radius: 5px;
+
+border: none;
+
+}
+
+.busqueda button {
+
+padding: 8px 12px;
+
+background-color: #1b263b;
+
+color: white;
+
+border: none;
+
+cursor: pointer;
+
+border-radius: 5px;
+
+}
+
+.busqueda button:hover {
+
+background-color: #415a77;
+
+}
+
+/* MENÚ */
+
+.menu {
+
+display: flex;
+
+justify-content: center;
+
+background-color: #1b263b;
+
+}
+
+.menu a {
+
+color: white;
+
+padding: 15px 25px;
+
+text-decoration: none;
+
+font-weight: bold;
+
+}
+
+.menu a:hover {
+
+background-color: #415a77;
+
+}
+
+/* SECCIONES CON IMAGEN */
+
+.seccion {
+
+padding: 40px;
+
+background-color: white;
+
+margin: 20px;
+
+border-radius: 10px;
+
+}
+
+.contenedor {
+
+display: flex;
+
+align-items: center;
+
+gap: 30px;
+
+}
+
+.contenedor img {
+
+width: 40%;
+
+border-radius: 10px;
+
+}
+
+.texto {
+
+width: 60%;
+
+}
+
+/* REGISTRO */
+
+.registro {
+
+background-color: white;
+
+margin: 30px auto;
+
+padding: 40px;
+
+width: 60%;
+
+border-radius: 10px;
+
+box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+
+text-align: center;
+
+}
+
+.registro img {
+
+width: 100%;
+
+max-width: 400px;
+
+border-radius: 10px;
+
+margin-bottom: 20px;
+
+}
+
+.registro form {
+
+display: flex;
+
+flex-direction: column;
+
+gap: 15px;
+
+}
+
+.registro input {
+
+padding: 10px;
+
+border-radius: 5px;
+
+border: 1px solid #ccc;
+
+}
+
+.registro button {
+
+padding: 12px;
+
+background-color: #0d1b2a;
+
+color: white;
+
+border: none;
+
+cursor: pointer;
+
+border-radius: 5px;
+
+font-size: 16px;
+
+}
+
+.registro button:hover {
+
+background-color: #415a77;
+
+}
+
+/* CONTACTO */
+
+.contacto {
+
+background-color: #0d1b2a;
+
+color: white;
+
+text-align: center;
+
+padding: 30px;
+
+margin-top: 40px;
+
+}
+
+.contacto img {
+
+width: 200px;
+
+border-radius: 10px;
+
+margin-bottom: 15px;
+
+}
